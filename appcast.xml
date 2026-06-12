@@ -3,12 +3,20 @@
     <channel>
         <title>KeyTop</title>
         <item>
+            <title>0.1.1</title>
+            <pubDate>Sat, 13 Jun 2026 07:59:06 +0800</pubDate>
+            <sparkle:version>2</sparkle:version>
+            <sparkle:shortVersionString>0.1.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.1</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/chunyang-wen/KeyTop/releases/download/v0.1.1/KeyTop-0.1.1.zip" length="5080215" type="application/octet-stream" sparkle:edSignature="w+c5Dgxba0Dzm8yLUWSqnHjU6i6riX57HGP3Q3CCr/W9dHYKptQoOgJpHa8EMFNH4lhFEDj5M1x3WQ1GM+30BQ=="/>
+        </item>
+        <item>
             <title>0.1.0</title>
             <pubDate>Sat, 13 Jun 2026 07:49:36 +0800</pubDate>
             <sparkle:version>1</sparkle:version>
             <sparkle:shortVersionString>0.1.1</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.1</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/chunyang-wen/KeyTop/releases/download/v0.1.1/KeyTop-0.1.1.zip" length="5080214" type="application/octet-stream" sparkle:edSignature="rtYqEiTdiZD5komCJGio6kll9+9xYEpg3Pio2yRH6LxikZcR1Z33Q3zs//VhvrrEFaFLymzjC4TRp0kU96Y/DA=="/>
+            <enclosure url="https://github.com/chunyang-wen/KeyTop/releases/download/v0.1.1/KeyTop-0.1.1.zip" length="5080227" type="application/octet-stream" sparkle:edSignature="kMVS8hzEADU6mjRrvVkOOsAe5zvYJHzZq4qETDdDfFdj0x2PUtfJO2+aD/PMkLK0E0aS2sZQCZGLgl8LH7ULBA=="/>
         </item>
     </channel>
 </rss>
