@@ -1,0 +1,14 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>KeyTop</title>
+        <item>
+            <title>0.1.0</title>
+            <pubDate>Sat, 13 Jun 2026 07:49:36 +0800</pubDate>
+            <sparkle:version>1</sparkle:version>
+            <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.1</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/chunyang-wen/KeyTop/releases/download/v0.1.0/KeyTop-0.1.0.zip" length="5080226" type="application/octet-stream" sparkle:edSignature="5lNGxyEwO3nvmKOvZbLhORWVcfhdoV4oPyjV64Yw58b0otj3RnXipJ+7ZrKSk3lq8zVz6MUcPNSG7ZkzrzdcBA=="/>
+        </item>
+    </channel>
+</rss>
