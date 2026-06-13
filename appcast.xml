@@ -16,7 +16,7 @@
             <sparkle:version>1</sparkle:version>
             <sparkle:shortVersionString>0.1.1</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.1</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/chunyang-wen/KeyTop/releases/download/v0.1.1/KeyTop-0.1.1.zip" length="5080227" type="application/octet-stream" sparkle:edSignature="kMVS8hzEADU6mjRrvVkOOsAe5zvYJHzZq4qETDdDfFdj0x2PUtfJO2+aD/PMkLK0E0aS2sZQCZGLgl8LH7ULBA=="/>
+            <enclosure url="https://github.com/chunyang-wen/keytop.app/releases/download/v0.1.1/KeyTop-0.1.1.zip" length="5080227" type="application/octet-stream" sparkle:edSignature="kMVS8hzEADU6mjRrvVkOOsAe5zvYJHzZq4qETDdDfFdj0x2PUtfJO2+aD/PMkLK0E0aS2sZQCZGLgl8LH7ULBA=="/>
         </item>
     </channel>
 </rss>
