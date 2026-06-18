@@ -1,1 +1,187 @@
-<h>AppCast</h>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>KeyTop - Beautiful Keystroke Overlay for macOS</title>
+  <meta name="description" content="KeyTop is a privacy-first macOS menu bar app that shows keyboard shortcuts, key presses, and mouse clicks in a beautiful floating overlay for demos, classes, and screen recordings." />
+  <meta name="theme-color" content="#f4efe5" />
+  <meta property="og:title" content="KeyTop - Beautiful Keystroke Overlay for macOS" />
+  <meta property="og:description" content="Show keyboard shortcuts and mouse clicks in polished, brandable overlays for tutorials, live demos, and presentations." />
+  <meta property="og:url" content="https://www.chunyangwen.com/keytop.app/" />
+  <meta property="og:image" content="https://www.chunyangwen.com/keytop.app/assets/icon.png" />
+  <link rel="icon" href="./assets/icon.png" />
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Public+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="page-grain" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="KeyTop home">
+      <img src="./assets/icon.png" alt="" width="40" height="40" />
+      <span>KeyTop</span>
+    </a>
+    <nav class="nav" aria-label="Primary navigation">
+      <a href="#workflows">Workflows</a>
+      <a href="#customize">Customize</a>
+      <a href="#privacy">Privacy</a>
+      <a class="nav-cta" href="#download">Get KeyTop</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">macOS menu bar utility</p>
+        <h1>Beautiful keystroke<br>overlays for<br>clearer demos.</h1>
+        <p class="lede">
+          KeyTop shows shortcuts, key presses, and mouse clicks in a floating overlay
+          that looks intentional on recordings, classes, live streams, and client calls.
+        </p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#download">Download soon</a>
+          <a class="button button-ghost" href="#customize">See customization</a>
+        </div>
+        <dl class="hero-stats" aria-label="KeyTop highlights">
+          <div>
+            <dt>7-day</dt>
+            <dd>trial ready</dd>
+          </div>
+          <div>
+            <dt>9</dt>
+            <dd>screen positions</dd>
+          </div>
+          <div>
+            <dt>local</dt>
+            <dd>input handling</dd>
+          </div>
+        </dl>
+      </div>
+
+      <div class="hero-stage" aria-label="KeyTop app preview">
+        <div class="mac-window">
+          <div class="window-bar">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="recording-canvas">
+            <div class="lesson-card">
+              <p>Live Demo</p>
+              <strong>Format shortcuts while the audience watches.</strong>
+            </div>
+            <img class="overlay-preview overlay-preview-top" src="./assets/keystoke.png" alt="KeyTop keystroke overlay with command key shortcut" />
+            <img class="overlay-preview overlay-preview-bottom" src="./assets/command-amber-alphabet-preview.png" alt="Amber KeyTop overlay theme preview" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="workflows" class="section workflows">
+      <div class="section-kicker">Built for the moments where inputs are invisible</div>
+      <div class="workflow-grid">
+        <article>
+          <span>01</span>
+          <h2>Teach shortcuts without breaking flow.</h2>
+          <p>Show invisible keyboard work during classes, internal trainings, onboarding videos, and product walkthroughs.</p>
+        </article>
+        <article>
+          <span>02</span>
+          <h2>Record cleaner tutorials.</h2>
+          <p>Use shortcut-only filtering to avoid visual noise while still showing the actions viewers need to repeat.</p>
+        </article>
+        <article>
+          <span>03</span>
+          <h2>Make screen sharing easier to follow.</h2>
+          <p>Display mouse clicks and modifier combinations so remote teammates do not need to ask what just happened.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="customize" class="section showcase">
+      <div class="section-header">
+        <p class="eyebrow">Creator-grade controls</p>
+        <h2>Dial in the exact overlay your audience should see.</h2>
+        <p>KeyTop includes practical settings for appearance, filters, position, animation, and reusable visual themes.</p>
+      </div>
+
+      <div class="showcase-grid">
+        <figure class="feature-shot large-shot">
+          <img src="./assets/appearance.png" alt="KeyTop appearance settings" />
+          <figcaption>
+            <strong>Appearance</strong>
+            Tune key style, size, opacity, shadows, colors, borders, and the live preview.
+          </figcaption>
+        </figure>
+        <figure class="feature-shot">
+          <img src="./assets/general.png" alt="KeyTop general settings" />
+          <figcaption>
+            <strong>Smart filters</strong>
+            Choose regular keys, function keys, mouse clicks, or shortcut-only mode.
+          </figcaption>
+        </figure>
+        <figure class="feature-shot">
+          <img src="./assets/position.png" alt="KeyTop position settings" />
+          <figcaption>
+            <strong>Multi-display placement</strong>
+            Pick the display and screen position that keeps your content readable.
+          </figcaption>
+        </figure>
+        <figure class="feature-shot">
+          <img src="./assets/animation.png" alt="KeyTop animation settings" />
+          <figcaption>
+            <strong>Motion options</strong>
+            Fade, tick, slide, bounce, or keep it instant for dense demos.
+          </figcaption>
+        </figure>
+        <figure class="feature-shot">
+          <img src="./assets/theme.png" alt="KeyTop theme settings" />
+          <figcaption>
+            <strong>Reusable themes</strong>
+            Match your tutorial, brand, stream layout, or classroom projector.
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section id="privacy" class="section privacy">
+      <div class="privacy-card">
+        <div>
+          <p class="eyebrow">Privacy-first by design</p>
+          <h2>Your keystrokes stay on your Mac.</h2>
+        </div>
+        <div class="privacy-points">
+          <p>KeyTop uses macOS Accessibility permission to observe input events and draw the overlay locally.</p>
+          <p>Password and secure input contexts are filtered so sensitive typing is not displayed.</p>
+          <p>Licensing verifies your license key; your keystroke stream is not uploaded for overlay rendering.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="download" class="section download">
+      <div class="download-card">
+        <img src="./assets/icon.png" alt="KeyTop app icon" width="96" height="96" />
+        <div>
+          <p class="eyebrow">Launching soon</p>
+          <h2>Get KeyTop for macOS.</h2>
+          <p>One-time license, 7-day trial, and automatic updates. Final distribution is being prepared.</p>
+        </div>
+        <a class="button button-primary button-disabled" href="#" aria-disabled="true">Available soon</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>KeyTop for macOS</p>
+    <div>
+      <a href="https://github.com/chunyang-wen/keytop.app" target="_blank" rel="noreferrer">GitHub</a>
+      <a href="https://x.com/ChunyangWen" target="_blank" rel="noreferrer">Twitter</a>
+    </div>
+  </footer>
+
+  <script type="module" src="./main.js"></script>
+</body>
+</html>
