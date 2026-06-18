@@ -7,6 +7,13 @@ export default defineConfig({
       name: 'add-trailing-slash-dev',
       configureServer(server) {
         server.middlewares.use((req, res, next) => {
+          if (req.url?.startsWith('/keytop.app?')) {
+            res.statusCode = 301;
+            res.setHeader('Location', req.url.replace('/keytop.app?', '/keytop.app/?'));
+            res.end();
+            return;
+          }
+
           if (req.url === '/keytop.app') {
             res.statusCode = 301;
             res.setHeader('Location', '/keytop.app/');

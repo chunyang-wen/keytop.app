@@ -520,6 +520,59 @@ h2 {
   color: #d8cbbb;
 }
 
+.download-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: flex-end;
+}
+
+.download-actions .button-ghost {
+  color: #fff8e8;
+  background: rgba(255, 248, 232, 0.08);
+}
+
+.purchase-success {
+  grid-column: 1 / -1;
+  padding: 22px;
+  border: 1px solid rgba(229, 170, 90, 0.42);
+  border-radius: 18px;
+  background: rgba(255, 248, 232, 0.08);
+}
+
+.purchase-success h3 {
+  margin: 0 0 8px;
+  color: #fff8e8;
+  font-size: 1.35rem;
+}
+
+.purchase-success p {
+  max-width: 820px;
+}
+
+.license-key {
+  display: grid;
+  gap: 7px;
+  margin-top: 16px;
+}
+
+.license-key span {
+  color: #e5aa5a;
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.license-key code {
+  overflow-wrap: anywhere;
+  border: 1px solid rgba(255, 248, 232, 0.18);
+  border-radius: 12px;
+  padding: 12px;
+  background: rgba(0, 0, 0, 0.22);
+  color: #fff8e8;
+}
+
 .footer {
   justify-content: space-between;
   width: min(1180px, calc(100% - 36px));
@@ -609,6 +662,10 @@ h2 {
   .download-card {
     justify-items: start;
   }
+
+  .download-actions {
+    justify-content: flex-start;
+  }
 }
 
 @media (max-width: 680px) {
@@ -692,6 +749,11 @@ h2 {
   }
 
   .hero-actions .button {
+    width: 100%;
+  }
+
+  .download-actions,
+  .download-actions .button {
     width: 100%;
   }
 

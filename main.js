@@ -1,4 +1,20 @@
 document.addEventListener('DOMContentLoaded', () => {
+  const params = new URLSearchParams(window.location.search);
+  const purchaseSuccess = document.querySelector('[data-purchase-success]');
+  const licenseWrapper = document.querySelector('[data-license-wrapper]');
+  const licenseKey = document.querySelector('[data-license-key]');
+
+  if (params.get('purchase') === 'success' && purchaseSuccess) {
+    purchaseSuccess.hidden = false;
+    document.querySelector('#download')?.scrollIntoView({ block: 'start' });
+
+    const key = params.get('license_key');
+    if (key && licenseWrapper && licenseKey) {
+      licenseKey.textContent = key;
+      licenseWrapper.hidden = false;
+    }
+  }
+
   const observerOptions = {
     root: null,
     rootMargin: '0px',
